@@ -1,0 +1,33 @@
+{
+  {
+    "id": 1,
+    "data": {
+      "endpoint": "https://vnexpress.net/microservice/home",
+      "parameters": {},
+      "description": "Lấy ra thông tin bài viết của 16 categories khác nhau có trên vnexpress. Mỗi category chứa thông tin
+    của 7 bài viết."
+    }
+  },
+  {
+    "id": 2,
+    "data": {
+      "endpoint": "https://vnexpress.net/microservice/home",
+      "parameters": {},
+      "description": "Lấy ra thông tin bài viết của 16 categories khác nhau có trên vnexpress. Mỗi category chứa thông tin
+    của 7 bài viết."
+    }
+  },
+  {
+
+  }
+}
+
+- https: //gw.vnexpress.net/tp/get_hottopic?site_id=1001002&topic_select=topic_id,title,share_url&limit=15:
+  - parameter:
+    - site_id: category_id
+  - usage:
+    - 
+
+https://vnexpress.net/microservice/fc
+
+Lấy ra tất cả các categories của vnexpress.
